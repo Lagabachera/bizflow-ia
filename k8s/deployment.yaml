@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: bizflow-backend
-        image: ghcr.io/lagabachera/bizflow-ia:latest
+        image: ghcr.io/Lagabachera/bizflow-ia:latest
         ports:
         - containerPort: 8000
         env:
