@@ -1,13 +1,1 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: bizflow-backend-service
-  namespace: bizflow-ia
-spec:
-  selector:
-    app: bizflow-backend
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 8000
-  type: LoadBalancer
+# Contenido completo del service.yaml aquí
